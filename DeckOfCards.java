@@ -65,12 +65,9 @@ public class DeckOfCards {
             
             System.out.println("Please enter number of players in the Range");
             
-            noOfPlayers();
-            
-        }
-        
+            noOfPlayers();   
+        }  
         scanner.close(); // Closed the Scanner Object.
-
     }
   }
 }
