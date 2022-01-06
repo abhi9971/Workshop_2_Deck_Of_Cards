@@ -1,8 +1,11 @@
 import java.util.ArrayList;
 
 import java.util.Scanner;
+ /*
+    UC2 To add no of players in the game
+     */
 
-public class DeckOfCards {
+public class DeckOfCards {                                      
     
     public ArrayList<String> cardsDeck = new ArrayList<>();
     
@@ -44,7 +47,7 @@ public class DeckOfCards {
     }
     
     /*
-    UC2 To add no of players in the game
+    UC1 Setup the initial game with deck of cards and make sure we have unique cards.
      */
 
     public class player {
