@@ -48,8 +48,6 @@ public class DeckOfCards {
     UC2:- To add no of players in the game
      */
 
-    public class player {
-
     public void noOfPlayers() {
         
         System.out.print("\nEnter number of players minimum 2 , maximum 4 : ");
@@ -70,4 +68,3 @@ public class DeckOfCards {
         scanner.close(); // Closed the Scanner Object.
     }
   }
-}
