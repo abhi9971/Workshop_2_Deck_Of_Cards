@@ -112,14 +112,22 @@
             Every player will be distributed 9 cards.
             */
               public static void cardDistribution(ArrayList<String> cardsDeck, int player) {
+                  
                   // This loop will itterate for no of players
                   for (int i = 0; i < player; i++) {
+                      
                       System.out.print("\nPlayer " + (i + 1) + " got cards:\n");
+                      
                       // This loop will itterate for no of cards for each player
                       for (int j = 0; j < 9; j++) {
+                          
                           System.out.print("\t" + cardsDeck.get(i + j * player));
+                          
                       }
+                      
                   }
+                  
                   System.out.println();
+                  
               }
         }
